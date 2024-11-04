@@ -38,21 +38,3 @@ spec:
   selector:
     app: kargo-demo
   type: NodePort
----
-apiVersion: v1
-data:
-  index.html: |-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>test</title>
-    </head>
-    <body>
-
-    <h1>uat</h1>
-
-    </body>
-    </html>
-kind: ConfigMap
-metadata:
-  name: kargo-demo-content
