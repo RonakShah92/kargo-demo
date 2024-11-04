@@ -56,21 +56,3 @@ data:
 kind: ConfigMap
 metadata:
   name: kargo-demo-content
----
-apiVersion: v1
-data:
-  index.html: |-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>test</title>
-    </head>
-    <body>
-
-    <h1>uat</h1>
-
-    </body>
-    </html>
-kind: ConfigMap
-metadata:
-  name: kargo-demo-content-test
