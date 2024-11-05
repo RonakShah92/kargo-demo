@@ -50,5 +50,5 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: kargo-demo-test1
+    app: kargo-demo-test
   type: NodePort
