@@ -3,8 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kargo-demo
-labels:              
-    app: kargo-demo-deployment
 spec:
   replicas: 1
   selector:
