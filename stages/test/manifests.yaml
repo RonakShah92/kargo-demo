@@ -55,3 +55,4 @@ data:
 kind: ConfigMap
 metadata:
   name: kargo-demo-content
+
